@@ -1,0 +1,17 @@
+syntax = "proto3" ;
+package validadordocumento;
+
+service ValidadorDocumentos {
+ 
+ rpc Validar (DocumentoRequest) returns (ResultadoResponse);
+
+}
+message DocumentoRequest{
+  int32 tipo_doc = 1;
+  string doc =2;
+}
+message ResultadoResponse{
+  bool valido= 1;
+  double erro= 2;
+
+}
