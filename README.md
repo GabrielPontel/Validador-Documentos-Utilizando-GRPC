@@ -148,4 +148,4 @@ Tipo (1 = CPF, 2 = CNPJ, 0 = sair): 0
 
 ## Autor
 
-Gabriel Pontel de Mori (PE3029042)
+Gabriel Pontel de Mori
